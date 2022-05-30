@@ -75,10 +75,11 @@ const SignIn = () => {
           </button>
         </div>
       </form>
-      <Oauth />
+
       <Link to="/sign-up" className="registerLink">
         Sign Up Instead
       </Link>
+      <Oauth />
     </div>
   );
 };
