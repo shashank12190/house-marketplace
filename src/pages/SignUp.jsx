@@ -99,14 +99,10 @@ const SignUp = () => {
           </button>
         </div>
       </form>
-      <Link
-        to="/sign-in"
-        className="registerLink"
-        style={{ marginBottom: "55px" }}
-      >
+      <Link to="/sign-in" className="registerLink" style={{ marginTop: "5px" }}>
         Sign-In Instead
       </Link>
-      <Oauth />
+      {/* <Oauth /> */}
     </div>
   );
 };

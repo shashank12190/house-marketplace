@@ -76,10 +76,10 @@ const SignIn = () => {
         </div>
       </form>
 
-      <Link to="/sign-up" className="registerLink">
+      <Link to="/sign-up" className="registerLink" style={{ marginTop: "5px" }}>
         Sign Up Instead
       </Link>
-      <Oauth />
+      {/* <Oauth /> */}
     </div>
   );
 };
