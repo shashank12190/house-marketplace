@@ -102,7 +102,7 @@ const SignUp = () => {
       <Link to="/sign-in" className="registerLink" style={{ marginTop: "5px" }}>
         Sign-In Instead
       </Link>
-      {/* <Oauth /> */}
+      <Oauth />
     </div>
   );
 };
