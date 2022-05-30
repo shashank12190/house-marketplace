@@ -34,7 +34,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="pageContainer">
+    <div className="pageContainer" style={{ height: "80%" }}>
       <header>
         <p className="pageHeader">Contact Landlord</p>
       </header>
@@ -62,7 +62,11 @@ const Contact = () => {
                 "listingName"
               )}&body=${message}`}
             >
-              <button type="button" className="primaryButton">
+              <button
+                type="button"
+                className="primaryButton"
+                style={{ marginTop: "10px" }}
+              >
                 Send Message
               </button>
             </a>

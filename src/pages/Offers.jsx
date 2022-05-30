@@ -29,7 +29,7 @@ const Offers = () => {
           listingsRef,
           where("offer", "==", true),
           orderBy("timestamp", "desc"),
-          limit(1)
+          limit(5)
         );
         // execute query
         const querySnap = await getDocs(q);
@@ -63,7 +63,7 @@ const Offers = () => {
         listingsRef,
         where("offer", "==", true),
         orderBy("timestamp", "desc"),
-        limit(1),
+        limit(5),
         startAfter(lastFetchedListing)
       );
       // execute query

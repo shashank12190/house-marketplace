@@ -68,6 +68,7 @@ function CreateListing() {
   const onSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    console.log(formData);
 
     // Regular price check
     if (discountedPrice >= regularPrice) {
