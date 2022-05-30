@@ -98,7 +98,7 @@ const Listing = () => {
           <li>{listing.furnished && "Furnished"}</li>
         </ul>
 
-        {auth.currentUser.uid !== listing.uid && (
+        {auth.currentUser?.uid !== listing.userRef && (
           <Link
             className="primaryButton"
             to={`/contact/${listing.userRef}?listingName=${listing.name}`}
